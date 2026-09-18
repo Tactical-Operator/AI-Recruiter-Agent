@@ -7,7 +7,7 @@ reader = PdfReader(pdf_path)
 text = ""
 
 for page in reader.pages:
-    text += page.extract_text() + "\n"
+    text += page.extract_text() + "\n" + "\n"
 
 print("==========================================")
 print("              CV CONTENT                  ")
